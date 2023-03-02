@@ -155,20 +155,6 @@ Prüfungsleistung?
 **Wie dies bei BA hilft**
 **Wie die Prüfungsleistung konkret aussieht (oben ankündigen)**
 **Laptop als Barriere**
-# Wie man Daten einliest
-```{r reading in data, echo = TRUE, eval = FALSE}
-data <- rio::import("folder/data/data.data")
-
-# Look at data
-View(data)
-
-# Select data
-data %>% 
-  select(Column1, other)
-```
-
-Jetzt seid ihr dran!
-
 # Einzelsitzung
 ```{r table-rahmenbedinungen}
 rahmenbedingungen <- data.frame(
@@ -209,4 +195,22 @@ papaja::apa_table(ablaufplan, caption = "Ablaufplan", align = c("c", "c", "c", "
 # References
 ::: {#refs custom-style="Bibliography"}
 :::
+
+\clearpage
+# Appendix
+## Beispielsitzungscode
+Nachdem wir in der letzten Sitzung einen Datensatz korrekt eingelesen haben und übersichtliche Variablennamen erstellt haben geht es in dieser Sitzung darum diesen Datensatz besser "kennenzulernen". Ihr lernt heute welche Aspekte eines Datensatzes auf Probleme hinweisen, damit ihr später schon zu Beginn eurer Datenanalyse mögliche Problemherde identifizieren könnt. Außerdem werden wir einige Herangehensweisen an das Kennenlernen eines Datensatzes betrachten, damit ihr euch mit eigenen und fremden Datensätzen möglichst schnell vertraut machen könnt.
+
+Zuerst müssen wir unseren Datensatz allerdings einlesen. Hier geben wir dem `rio::import()` Befehl wieder den Pfad an dem unser Datensatz liegt.
+
+```{r reading in data, echo = TRUE, eval = FALSE}
+data <- rio::import("folder/data/data.rdata")
+```
+
+Jetzt sollten wir im _Environment_ einen Eintrag `data` sehen. Hier ist es immer von Vorteil den gesamten Datensatz mal in seiner Rohform zu inspizieren. Hierzu klickt ihr entweder auf den Eintrag im _Environment_ oder schreibt `View(data)` in die Kommandozeile von R. Wichtig ist es hier darauf zu achten, welche Variablennamen im Datensatz vorhanden sind und welche Art von Werten ihr hier vermehrt seht.
+
+Mit dem Befehl `colnames(data)` könnt ihr die Namen der Variablen des Datensatzes nochmal genauer inspizieren. Da wird diese letzte Woche definiert haben, kommen sie euch schon bekannt vor.
+
+Ein wunderbarer Befehl, mit dem man sich Überblick über einen Datensatz verschaffen kann ist 
+
 

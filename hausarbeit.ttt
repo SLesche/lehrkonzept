@@ -1,0 +1,106 @@
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[tbp]
+
+\begin{center}
+\begin{threeparttable}
+
+\caption{\label{tab:sitzungsplan}Sitzungsplan}
+
+\small{
+
+\begin{tabular}{llm{8.5cm}}
+\toprule
+Sitzung & \multicolumn{1}{c}{Titel} & \multicolumn{1}{c}{Beschreibung}\\
+\midrule
+1 & Auftaktsitzung & Kennenlernen, Beschreibung der Seminarziele und Anforderungen, Sicherstellen der R-Installation, Aufsetzen der Ordnerstruktur\\
+2 & Datensätze einlesen & Einzelne Datensätze verschiedener Typen einlesen, mehrere Datensätze gleichzeitig einlesen, das rio-Paket, erstes Kennenlernen des Datensatzes\\
+3 & Datensatz strukturieren & Gute Variablennamen, Grundstrukturen von Datensätzen, Filtern von Variablen\\
+4 & Datensatz kennenlernen & Einträge zählen, Übersicht erhalten, erste grafische Checks\\
+5 & neue Variablen erstellen & Neue Zeilen mit mutate(), Übersichten mit summarize() erstellen\\
+6 & deskriptive Analyse & Forschungsfrage deskriptiv testen, Übersichten erstellen, erste plots mit ggplot()\\
+7 & Signifikanztests & Grundlagen von t-Tests, ANOVAs und linearen Modellen in R\\
+8 & Berichten von Ergebnissen & Wie beschreibe ich die Schritte meiner Datenanalyse? APA-konformes reporten der Ergebnisse\\
+9-12 & Blocktermin & Kleingruppen analysieren eine Forschungsfrage anhand eines Datensatzes und präsentieren ihre Ergebnisse dann im Plenum\\
+Ende & Abgabe der Prüfungsleistung & Anhand eigens gewähltem Datensatz einen Forschungs- und Analysebericht erstellen. Code wird ebenfalls bewertet\\
+\bottomrule
+\end{tabular}
+
+}
+
+\end{threeparttable}
+\end{center}
+
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[tbp]
+
+\begin{center}
+\begin{threeparttable}
+
+\caption{\label{tab:table-rahmenbedingungen}Rahmenbedingungen - Sitzung: neue Variablen erstellen}
+
+\small{
+
+\begin{tabular}{lm{10.5cm}}
+\toprule
+Rahmenbedingungen & \multicolumn{1}{c}{ }\\
+\midrule
+Titel / Thema & neuen Variable mit mutate() erstellen\\
+Externe Voraussetzungen & R, RStudio, Datensatz, tidyverse-Paket\\
+Interne Voraussetzungen & Aufbau des Datensatzes verstanden, Forschungsfrage verstanden, minimale Vorkenntnisse im tidyverse\\
+Angestrebte Kompetenzen & Entscheidungen bzgl. der Umsetzung einer Forschungsfrage in benötigte Variablen im Datensatz treffen. Fähigkeit den Vorgang zum Erstellen einer neuen Variable zu begründen. Anwenden der summarize()-Funktion zum Erstellen von Übersichten. Verstehen der group\_by()-Funktion\\
+\bottomrule
+\end{tabular}
+
+}
+
+\end{threeparttable}
+\end{center}
+
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[tbp]
+
+\begin{center}
+\begin{threeparttable}
+
+\caption{\label{tab:table-ablaufplan}Ablaufplan - Sitzung: neue Variablen erstellen}
+
+\scriptsize{
+
+\begin{tabular}{lm{2cm}m{7.5cm}lm{2cm}}
+\toprule
+Zeit & \multicolumn{1}{c}{Phase} & \multicolumn{1}{c}{Inhalt} & \multicolumn{1}{c}{Methode} & \multicolumn{1}{c}{Medium}\\
+\midrule
+5min & Einleitung & Ermitteln von Fragen zur letzten Sitzung, am Ende der Sitzung klären. (Ermitteln, Aktivieren, Orientieren) & Fragerunde & Konversation im Plenum\\
+5min & Einleitung & Bereitstellung des aktuellen Stand des Datensatzes. Aktivieren des Wissens über den Datensatz, der in der letzten Sitzung erstellt wurde. (Motivieren, Aktivieren) & Fragerunde & Konversation im Plenum\\
+5min & Einleitung & Was wollen wir mit unserer Fragestellung eigentlich überprüfen, welche Variablen brauchen wir dafür? (Aktivieren, Motivieren, Lenken) & Diskussion & Konversation im Plenum\\
+10min & Arbeitsphase & Information - Grundkonzepte der Datensatzmanipulation - mutate() & Präsentation & Powerpoint\\
+15min & Arbeitsphase & Arbeiten - Anwendung des mutate() Befehls & Übung & learnr-Tutorial\\
+10min & Arbeitsphase & Information - Übersichten mit summarize() & Präsentation & Powerpoint\\
+15min & Arbeitsphase & Arbeiten - Anwendung von summarize() & Übung & learnr-Tutorial\\
+5min & Arbeitsphase & Exkurs - Gruppieren von Datensätzen mit group\_by() & Präsentation & Powerpoint\\
+10min & Arbeitsphase & Arbeiten - Anwendung von group\_by() auf den vorher geschriebenen Code & Übung & learnr-Tutorial\\
+5min & Abschluss & End-Quiz zu wie erstellt man eine Summe (Reihen, oder Zeilenweise) - wie z-standardisiert man eine Variable? (Überprüfen, Sichern) & Quiz & Kahoot\\
+5min & Abschluss & Was hat gut funktioniert, wo sind noch Fragen offen? (Rückmelden/Rückblicken/Zusammenfassen) & Blitzlicht & Konversation im Plenum\\
+\bottomrule
+\addlinespace
+\end{tabular}
+
+}
+
+\begin{tablenotes}[para]
+\normalsize{\textit{Note.} In Klammern sind jeweils die Verben, die das Ziel der jeweiligen Übung beschreiben angegeben (Macke et al., 2016).}
+\end{tablenotes}
+
+\end{threeparttable}
+\end{center}
+
+\end{table*}

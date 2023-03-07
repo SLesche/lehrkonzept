@@ -197,6 +197,18 @@ Das Geübte wird dann mit einem Kahoot-Quiz noch einmal überprüft. Am Ende wir
 
 Die Sitzung legt großen Wert auf den theoretischen Aspekt der Anwendung der Forschungsfrage auf den Datensatz und besonders auf die technische Umsetzung dieser Überlegungen. Diese Inhalte werden in den Übungen innerhalb der Sitzung, am Blocktermin, in der Hausarbeit und in den jeweiligen Abschlussarbeiten der Studierenden relevant sein.
 
+# Fazit
+Das Seminar soll Studierenden die Möglichkeit bieten Fähigkeiten zu erwerben, die Sie für ihre Abschlussarbeit benötigen werden. Daher sind die Seminarinhalte eng an den Vorgang einer Datenaufbereitung und Datenanalyse, wie sie in der Forschung durchgeführt wird, aufgebaut. Vom Beginn der Entwicklung einer Forschungsfrage, über das Einlesen, Aufbereiten, Verändern und Auswerten eines Datensatz bis zur anschließenden Präsentation der Ergebnisse sollen die Sitzungen sowie Prüfungsleistungen dieses Seminars den Prozess abbilden. Die Vorteile von _constructive alignment_, _blended learning_, Lerngruppen und praktischer Relevanz tragen zu besserer Lehrqualität des Seminars bei. Studierende erhalten stets die Möglichkeit die Inhalte vertiefend zu üben und anzuwenden.
+
+Mögliche Probleme des Seminars sind:
+
+- Software- oder Hardwareprobleme: Dies muss die Seminarleitung lösen können
+- kein Wille zur Auseinandersetzung mit R: Hier besteht die Hoffnung, dass die hohe Relevanz des Seminars zu hoher Motivation führt. Außerdem werden voraussichtlich eher R-enthusiastische Menschen dieses Seminar wählen
+- wenig Benutzung des Forums oder der Gruppen: Die Kleingruppen sowie das Selbsthilfeforum sind ein Angebot des Seminars, das es den Studierenden erleichtern soll Fragen zu stellen. Im Seminar wird mehrfach auf den Benefit dieses Angebots hingewiesen werden, wer es nicht nutzt ist sozusagen "selbst schuld".
+- zu viel Inhalt in einer Sitzung: Sitzungen sind absichtlich so geplant, dass sie tendenziell zu wenig Inhalt vermitteln. Das Seminar ist für R-Anfänger angedacht. Sollte eine Sitzung dann tatsächlich zu schnell abgearbeitet sein, kann Übungsmaterial in der Sitzung vorgezogen bearbeitet werden.
+
+Ich halte das Seminar für eine sinnvolle Ergänzung zum jetzigen Lehrplan und würde es zwischen dem 4-6 Fachsemester ansiedeln. Meine Hoffnung ist, dass Studierende hier in einem lockeren Gruppensetting Vertrauen in ihre Fähigkeiten in R gewinnen können und langfristig von den Inhalten des Seminars profitieren.
+
 ```{r table-rahmenbedingungen}
 rahmenbedingungen <- data.frame(
   Rahmenbedingungen = c(
